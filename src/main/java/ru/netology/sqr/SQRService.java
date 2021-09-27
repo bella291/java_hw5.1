@@ -7,7 +7,6 @@ public class SQRService {
             int square = i * i;
             if (square >= lowLimit && square <= upLimit) {
                 rootNumber = rootNumber + 1;
-                System.out.println(rootNumber);
             }
         }
         return rootNumber;
